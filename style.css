@@ -1,0 +1,47 @@
+
+.container-fluid{
+    box-shadow: -1px 7px 39px;
+    height: 249px;
+}
+
+    .label {
+        font-size: 23px;
+    }
+    #submit {
+        background-color: #7952b3;
+    color: white;
+        width: -webkit-fill-available;
+        margin-left: -44px;
+    margin-right: -12px;
+    height: 45px;
+    margin-top: 18px;
+    }
+    #submit :hover{
+        background-color: #7952b3;
+    }
+
+ol li{
+    list-style: none;
+}
+.container-fluid {
+    margin-top:15%;
+    width: 90%;
+    
+}
+#home_btn{
+    background-color: #7952b3;
+    color: white;
+    width: 25%;    border-radius: 5px;
+    border-color: #7952b3;
+    margin-top: 2%;
+}
+h1{
+    font-family: 'Orelega One', cursive;
+}
+
+#win{
+  
+        display: flex;
+        align-items: center;
+    
+}
