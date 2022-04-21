@@ -100,21 +100,11 @@ submit.addEventListener('click', () => {
         .then((len) => {
             if (len) {
                 window.location = "win.html";
-                showscore.innerHTML = `
-        <h3>you scored ${score}/${quest.length}</h3>
-<h2>Bingoo!...</h2>
-<h3> You qulified for the next round</h3>
-        `;
+                
                 if (score == 0) {
                     window.location = "loss.html";
 
-                    showscore.innerHTML = `
-<h3>you scored ${score}/${quest.length}</h3>
-<h3>Sorry did't scored well you can Retry</h3>
-<button class='sub' onclick='location.reload()'>Retry</button>
 
-
-        `;
                 }
 
 
